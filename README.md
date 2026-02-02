@@ -159,13 +159,15 @@ A standalone script that connects to Interactive Brokers TWS to snapshot the cur
 | Computes portfolio weights and unrealized P&L % | Pandas |
 | Saves a timestamped Excel snapshot | `Portfolio_History/Portfolio_Checkpoint_DD-MM-YYYY.xlsx` |
 
+> Interactive Brokers is used as a personal preference and is not a sponsored endorsement.
+
 **Prerequisites:**
 - An [Interactive Brokers](https://www.interactivebrokers.com/) account
 - TWS or IB Gateway running with API connections enabled
 - The `ibapi` Python package installed and configured
 
 For setup instructions on how to enable the API and install `ibapi`, check the official Interactive Brokers video tutorial:
-> **[https://www.youtube.com/watch?v=_hjgBid_Rcc]**
+> **[YouTube Tutorial](https://www.youtube.com/watch?v=_hjgBid_Rcc)**
 
 **Configuration:** Create a `.env` file in the project root:
 ```env
@@ -186,7 +188,7 @@ python Check_Portfolio.py
 Much of the heavy lifting for portfolio optimization and backtesting is handled by `vartools`, a custom Python library built for this workflow.
 
 Check out the library and its documentation here:
-> **[https://github.com/LuisMB09/vartools]**
+> **[vartools](https://github.com/LuisMB09/vartools)**
 
 ---
 
