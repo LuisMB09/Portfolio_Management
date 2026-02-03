@@ -101,7 +101,7 @@ def get_benchmark_metrics(rt_benchmark_test: pd.DataFrame, rf: float):
 
 # ── Page Config ───────────────────────────────────────────────────────────────
 
-st.set_page_config(page_title="Portfolio Dashboard", layout="wide")
+st.set_page_config(page_title="Portfolio Dashboard", layout="wide", page_icon="📊")
 st.title("Portfolio Dashboard")
 st.markdown("""
 This dashboard allows you to backtest and compare multiple portfolio optimization strategies

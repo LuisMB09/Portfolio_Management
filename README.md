@@ -183,6 +183,19 @@ python Check_Portfolio.py
 
 ---
 
+## Dashboard
+
+An interactive Streamlit dashboard that combines the backtesting and weight optimization stages into a single app. Input your tickers, capital, risk-free rate, and rebalancing period to run the full analysis pipeline — from strategy comparison to portfolio simulation.
+
+> **Live Dashboard:** [dashboard](https://portfolio-strategy.streamlit.app)
+
+If the link is unavailable, the source code is available in [`dashboard.py`](dashboard.py). You can run it locally with:
+```bash
+streamlit run dashboard.py
+```
+
+---
+
 ## vartools
 
 Much of the heavy lifting for portfolio optimization and backtesting is handled by `vartools`, a custom Python library built for this workflow.
@@ -213,6 +226,7 @@ Portfolio/
 ├── Portfolio_Backtest.ipynb     # Stage 3: Strategy backtesting
 ├── Portfolio_Weights.ipynb      # Stage 4: Weight optimization & rebalancing
 ├── Check_Portfolio.py           # Stage 5: Live portfolio monitoring (IBKR)
+├── dashboard.py                 # Interactive Streamlit dashboard (Stages 3 & 4)
 ├── requirements.txt             # Python dependencies
 ├── .env                         # IBKR connection config (not tracked)
 ├── .gitignore
