@@ -213,3 +213,6 @@ Portfolio_History/
 *.xlsx
 *.docx
 .claude/
+
+# PDF files
+*.pdf

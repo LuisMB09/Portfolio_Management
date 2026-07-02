@@ -94,7 +94,7 @@ def main():
     base_dir = "Financials"
     os.makedirs(base_dir, exist_ok=True)
 
-    tickers = ['UBER']
+    tickers = ['ULTA']
 
     max_workers = min(len(tickers), os.cpu_count())
     logger.info(f"Using {max_workers} workers for parallel processing.")
